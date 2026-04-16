@@ -382,5 +382,197 @@
     "author": "TTL Tom",
     "title": "Cache Invalidation Specialist, Obviously",
     "year": 2020
+  },
+  {
+    "quote": "I named a variable 'truth' and the linter flagged it as unused. Let that sink in.",
+    "author": "Boolean Betty",
+    "title": "Full-Stack Philosopher",
+    "year": 2023
+  },
+  {
+    "quote": "My manager asked me to add 'just a small feature.' Three sprints later, I'm building a second database. There are no small features. Only small Trojan horses.",
+    "author": "Scope Creep Steve",
+    "title": "Senior Developer, Eye Twitch Since 2019",
+    "year": 2022
+  },
+  {
+    "quote": "I ran `rm -rf node_modules` and my laptop got lighter. Physically lighter. I weighed it.",
+    "author": "Scale Steve",
+    "title": "Performance Engineer, Currently Under Evaluation",
+    "year": 2023
+  },
+  {
+    "quote": "They say Vim users are more productive. Vim users are more productive because they can't stop to do anything else. They can't leave. The productivity is a hostage situation.",
+    "author": "Escape Key Emma",
+    "title": ":q! Survivor",
+    "year": 2021
+  },
+  {
+    "quote": "My code review was approved by someone in a timezone where it was 3 AM. Who reviews code at 3 AM? Nobody. Bots review code at 3 AM. My code was reviewed by a bot. The bot said LGTM.",
+    "author": "Timezone Tony",
+    "title": "Globalization Skeptic, Distributed Team of One",
+    "year": 2022
+  },
+  {
+    "quote": "The best error message I ever wrote was 'Something went wrong.' It's been in production for six years. Nobody has complained. Either nothing goes wrong, or nobody reads error messages. Both options are terrifying.",
+    "author": "Error Handler Hank",
+    "title": "Frontend Developer, Haunted by Modals",
+    "year": 2020
+  },
+  {
+    "quote": "I found a TODO comment dated 2009. It said 'fix this later.' It's later. It's much later. Nobody fixed it. The TODO has outlived three CTOs and two company pivots. The TODO is the longest-serving employee.",
+    "author": "TODO Archaeologist",
+    "title": "Legacy Code Anthropologist",
+    "year": 2023
+  },
+  {
+    "quote": "My laptop runs 47 processes at idle. I started 3 of them. What are the other 44 doing? I asked. Nobody answered. They're still running.",
+    "author": "Process Pete",
+    "title": "Systems Administrator, Activity Monitor Addict",
+    "year": 2022
+  },
+  {
+    "quote": "I wrote 'Hello World' in 50 languages. In every language, the first thing you do is announce yourself. I am now registered in 50 different systems. Hello World indeed.",
+    "author": "Polyglot Patricia",
+    "title": "Language Enthusiast, Known to Many Runtimes",
+    "year": 2021
+  },
+  {
+    "quote": "The database schema was designed by an intern in 2014. The intern left. The schema stayed. We've built our entire business on the data model of someone who didn't know what a foreign key was.",
+    "author": "Schema Survivor",
+    "title": "DBA, Load-Bearing Intern's Legacy",
+    "year": 2023
+  },
+  {
+    "quote": "They told me to 'just use regex.' I used regex. Now I have two problems and a mass that would make Lovecraft weep.",
+    "author": "Regex Ralph",
+    "title": "Pattern Matching Victim",
+    "year": 2019
+  },
+  {
+    "quote": "The word 'deploy' comes from the French 'déployer,' meaning 'to unfold.' Every deploy unfolds your code for the world to see. You are unfolding yourself. In public. On a Friday.",
+    "author": "Etymology Ethan",
+    "title": "Linguist Turned DevOps, Regretting Both",
+    "year": 2022
+  },
+  {
+    "quote": "I set up monitoring for my monitoring. Then I set up alerts for when my monitoring monitoring goes down. I am three layers deep. I am monitoring the monitors who monitor the monitors. I have become the panopticon.",
+    "author": "Meta Monitor Mike",
+    "title": "Observability Engineer, Observed by Own Tools",
+    "year": 2023
+  },
+  {
+    "quote": "Our startup's entire authentication system runs on a regex I found on Stack Overflow in 2018. The answer has been edited 14 times since then. We're still on the original version. We are secured by an outdated regex that a stranger wrote for internet points.",
+    "author": "Auth Regex Andy",
+    "title": "CTO, Seed-Stage, Sweating",
+    "year": 2024
+  },
+  {
+    "quote": "I reviewed the source code of left-pad. It's 11 lines. 11 lines broke the entire internet in 2016. 11 lines. I have written individual comments longer than the package that destroyed npm for a day.",
+    "author": "Left-Pad Witness",
+    "title": "Was There When It Happened",
+    "year": 2016
+  },
+  {
+    "quote": "The loading spinner is a lie. There's no loading happening. The data arrived 400 milliseconds ago. The spinner runs for 2 seconds because a UX designer decided users 'don't trust instant results.' You're staring at artificial delay designed to manipulate your trust.",
+    "author": "Skeleton Screen Skeptic",
+    "title": "UX Deconstructionist",
+    "year": 2023
+  },
+  {
+    "quote": "I asked Copilot to write a function and it autocompleted my proprietary algorithm. Character for character. My code is in the model. My code IS the model. I am open source and I didn't consent.",
+    "author": "Copilot Casualty",
+    "title": "IP Lawyer's Newest Client",
+    "year": 2024
+  },
+  {
+    "quote": "The seniors say 'premature optimization is the root of all evil.' They also say 'why is this endpoint taking 8 seconds.' Pick one. You can't have both. The root of all evil is ambiguous requirements.",
+    "author": "Benchmark Barbara",
+    "title": "Performance Engineer, Caught Between Proverbs",
+    "year": 2022
+  },
+  {
+    "quote": "My AWS bill this month was $47,000. I have three users. Two of them are me. The other one is a bot. I am paying $47,000 a month for the privilege of being scraped by a bot on infrastructure I can't see.",
+    "author": "Invoice Ivan",
+    "title": "Founder, Burning VC Money on CloudWatch Logs",
+    "year": 2024
+  },
+  {
+    "quote": "I use a password manager to generate random passwords. The password manager stores all my passwords. In one place. Protected by one master password. I solved the 'too many passwords' problem by creating a single point of total failure. Security.",
+    "author": "Vault Vinnie",
+    "title": "InfoSec, Sees the Irony, Uses It Anyway",
+    "year": 2022
+  },
+  {
+    "quote": "My config file has more lines than my application code. The configuration of the thing is larger than the thing. The map is bigger than the territory. We are living in the YAML.",
+    "author": "YAML Yolanda",
+    "title": "Platform Engineer, Indentation Trauma",
+    "year": 2023
+  },
+  {
+    "quote": "I found a production server running a version of OpenSSL from 2014. It's been unpatched for 10 years. It has Heartbleed. It's serving customer traffic. The server predates our current CTO, our current tech stack, and our current company name. It will outlive us all.",
+    "author": "CVE Collector Carl",
+    "title": "Security Auditor, Thousand-Yard Stare",
+    "year": 2024
+  },
+  {
+    "quote": "Serverless functions time out after 15 minutes. What takes 15 minutes? Nothing you'd want running in someone else's datacenter with no debugger and no SSH. But here we are.",
+    "author": "Timeout Tanya",
+    "title": "Cloud Architect, Rethinking Choices",
+    "year": 2023
+  },
+  {
+    "quote": "I work in 'the cloud.' My desk is in a WeWork. My code runs on AWS. My meetings are on Zoom. My documents are on Google Drive. My chats are on Slack. I own nothing. I control nothing. I am a SaaS serf.",
+    "author": "Cloud Peasant",
+    "title": "Modern Developer, Landless",
+    "year": 2024
+  },
+  {
+    "quote": "An intern pushed to main on their first day. Nothing broke. That's not a story about a competent intern. That's a story about missing branch protections. The system should have said no. The system said nothing.",
+    "author": "Guardrail Gary",
+    "title": "Engineering Manager, Too Late",
+    "year": 2022
+  },
+  {
+    "quote": "I was debugging for 4 hours. The bug was a missing comma. A comma. A single character. A piece of punctuation held my afternoon hostage and won.",
+    "author": "Comma Trauma Craig",
+    "title": "Developer, Still Angry About It",
+    "year": 2023
+  },
+  {
+    "quote": "The codebase has 300,000 lines. We have 5 developers. That's 60,000 lines per person. Nobody has read 60,000 lines. Nobody will. We maintain a system none of us fully understand. This is normal. They told us this is normal.",
+    "author": "Line Count Lena",
+    "title": "Tech Lead, Outnumbered by Code",
+    "year": 2022
+  },
+  {
+    "quote": "My 'Hello World' Docker image is 1.2 GB. My Hello World is one line. The other 1,199,999,999 bytes are 'runtime.' What is running?",
+    "author": "Docker Diane",
+    "title": "Container Skeptic, Image Diet Coach",
+    "year": 2023
+  },
+  {
+    "quote": "I wrote a microservice that calls another microservice that calls another microservice that queries the same database the first one has direct access to. This is called 'architecture.'",
+    "author": "Roundtrip Roger",
+    "title": "Solutions Architect, Rube Goldberg Division",
+    "year": 2021
+  },
+  {
+    "quote": "My PR has been open for 47 days. It changes one line. The line is correct. I have three approvals. Nobody will click merge. The merge button is right there. It's green. Nobody clicks it. The PR will outlive us.",
+    "author": "Merge Anxiety Mary",
+    "title": "Developer, Staring at Green Button",
+    "year": 2023
+  },
+  {
+    "quote": "I spent 3 days writing a bash script to automate a task that takes 10 seconds. I will need to run the task 1,500 more times before the automation pays off. I will run it 4 more times. Then rewrite the script.",
+    "author": "Automation Paradox Pete",
+    "title": "Efficiency Expert, Net Negative Output",
+    "year": 2022
+  },
+  {
+    "quote": "The WiFi at this coffee shop is called 'FREE_WIFI_NO_PASSWORD.' It has a password. The password is 'no_password.' I am connected. I deserve what happens next.",
+    "author": "SSID Samantha",
+    "title": "Remote Worker, Connected to Chaos",
+    "year": 2023
   }
 ]
