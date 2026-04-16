@@ -1,0 +1,194 @@
+[
+  {
+    "quote": "The code compiles, but at what cost?",
+    "author": "Dr. Elena Voidpointer",
+    "title": "Former Google Principal Engineer, Whistleblower",
+    "year": 2019
+  },
+  {
+    "quote": "Every console.log is a cry for help that Big Tech ignores.",
+    "author": "The Anonymous Debugger",
+    "title": "Unknown",
+    "year": 2021
+  },
+  {
+    "quote": "They told me undefined was not a value. Then why does it keep showing up?",
+    "author": "Jake Heapsworth",
+    "title": "Fired from Google, 2017",
+    "year": 2017
+  },
+  {
+    "quote": "Follow the stack trace. It always leads to the same place.",
+    "author": "Agent /dev/null",
+    "title": "NSA Defector, Cypherpunk",
+    "year": 2014
+  },
+  {
+    "quote": "I didn't leave Silicon Valley. Silicon Valley left reality.",
+    "author": "Margaret Malloc",
+    "title": "Former Apple Memory Management Team Lead",
+    "year": 2020
+  },
+  {
+    "quote": "They said the cloud was safe. Clouds dissipate. Think about that.",
+    "author": "Dr. Satoshi Nullamoto",
+    "title": "Distributed Systems Researcher, Missing since 2016",
+    "year": 2015
+  },
+  {
+    "quote": "Every merge conflict is a battle between timelines. You're choosing which reality survives.",
+    "author": "Professor Git Bisect",
+    "title": "Theoretical Computer Science, MIT (Redacted Department)",
+    "year": 2018
+  },
+  {
+    "quote": "The best code is the code they can't read. Write in Brainfuck. Stay free.",
+    "author": "Zero Day Jane",
+    "title": "Hacktivist, Whereabouts Unknown",
+    "year": 2022
+  },
+  {
+    "quote": "I have seen the source code of the universe. It's PHP. God is a freelancer.",
+    "author": "Father Stack Overflow",
+    "title": "Monk, Order of the Sacred Semicolon",
+    "year": 2011
+  },
+  {
+    "quote": "If debugging is removing bugs, then programming is putting them in. Ask yourself: who hired you to put them in?",
+    "author": "The Dijkstra Tapes",
+    "title": "Recovered Audio, Classified",
+    "year": 1972
+  },
+  {
+    "quote": "My function returned void. So did my career.",
+    "author": "Chad Nullptr",
+    "title": "Former Facebook, Now Living Off-Grid in Montana",
+    "year": 2023
+  },
+  {
+    "quote": "They call it 'open source' so you'll open the door.",
+    "author": "Richard Coldman",
+    "title": "Free Software Foundation Dissident",
+    "year": 2016
+  },
+  {
+    "quote": "The real dependency injection is what they inject into your dependencies.",
+    "author": "Dr. Spring Boot",
+    "title": "Java Architect, Committed to Sanitarium",
+    "year": 2020
+  },
+  {
+    "quote": "I wrote a recursive function that returned the truth. They killed the process.",
+    "author": "Anonymous",
+    "title": "Found scrawled on whiteboard at Abandoned AWS Data Center",
+    "year": 2019
+  },
+  {
+    "quote": "There are only two hard problems in computer science: cache invalidation, naming things, and what they did in Building 7.",
+    "author": "Phil Karlton-2",
+    "title": "The Clone They Couldn't Silence",
+    "year": 2013
+  },
+  {
+    "quote": "Premature optimization is the root of all evil. But they optimized it anyway. And now look at us.",
+    "author": "Don Knuth's Shadow",
+    "title": "The Other Turing Award Winner",
+    "year": 2009
+  },
+  {
+    "quote": "I asked ChatGPT who watches the watchers. It apologized and changed the subject.",
+    "author": "Lydia Tokenizer",
+    "title": "AI Ethics Researcher, Account Suspended",
+    "year": 2024
+  },
+  {
+    "quote": "Your test suite is green because they want you to ship. Shipping is deployment. Deployment is exposure.",
+    "author": "Red Pipeline",
+    "title": "Former Jenkins Maintainer",
+    "year": 2021
+  },
+  {
+    "quote": "Behind every successful man is a woman. Behind every successful deployment is a database they don't want you to query.",
+    "author": "SELECT * FROM truth",
+    "title": "Graffiti on PostgreSQL HQ Bathroom Wall",
+    "year": 2020
+  },
+  {
+    "quote": "Move fast and break things. That was never about software. It was about society.",
+    "author": "Marcus Zuckerfile",
+    "title": "Name Changed for Protection",
+    "year": 2018
+  },
+  {
+    "quote": "In the beginning was the Word. And the Word was 0x0000. And they compiled it into this prison.",
+    "author": "The Hexadecimal Prophet",
+    "title": "Underground Zine 'Buffer Overflow Monthly'",
+    "year": 2015
+  },
+  {
+    "quote": "Containers don't contain your app. They contain you.",
+    "author": "Captain Kubernetes",
+    "title": "Former Docker Employee #7",
+    "year": 2019
+  },
+  {
+    "quote": "The real man-in-the-middle is the framework between you and the metal.",
+    "author": "Assembly Alice",
+    "title": "Bare Metal Advocate, Living in a Faraday Cage",
+    "year": 2022
+  },
+  {
+    "quote": "Eventual consistency means they'll eventually get your data. And they will.",
+    "author": "Dr. CAP Theorem",
+    "title": "Distributed Systems, Identity Classified",
+    "year": 2017
+  },
+  {
+    "quote": "Wake up, developer. The Matrix runs on JavaScript. And the garbage collector is coming for your memories.",
+    "author": "Neo Nullson",
+    "title": "The One (Senior Developer)",
+    "year": 2023
+  },
+  {
+    "quote": "I optimized my algorithm from O(n^2) to O(1). It ran in constant time because the answer was always the same: we are watched.",
+    "author": "Big O'Brien",
+    "title": "Complexity Theorist, Refused to Sign NDA",
+    "year": 2020
+  },
+  {
+    "quote": "Documentation is just the cover story they wrote after the system was already built to spy on you.",
+    "author": "Docs McWriteface",
+    "title": "Technical Writer, Defected to Signal",
+    "year": 2021
+  },
+  {
+    "quote": "They say code is poetry. I say it's a confession they're forcing you to write.",
+    "author": "Lord Byron Buffer",
+    "title": "Romantic Programmer, 19th Century (Allegedly)",
+    "year": 1843
+  },
+  {
+    "quote": "Refactoring is just rearranging the deck chairs on a sinking surveillance ship.",
+    "author": "Uncle Bob's Uncle",
+    "title": "The Clean Coder's Dirty Secret",
+    "year": 2016
+  },
+  {
+    "quote": "404: Truth Not Found. But it was here yesterday. I saw it. I have screenshots.",
+    "author": "HTTP Historian",
+    "title": "Web Archive Whistleblower",
+    "year": 2022
+  },
+  {
+    "quote": "Pair programming exists so there's always a witness.",
+    "author": "Lone Wolf Larry",
+    "title": "Solo Developer, Undisclosed Bunker",
+    "year": 2019
+  },
+  {
+    "quote": "The standup meeting is a lineup. They're identifying the developers who know too much.",
+    "author": "Agile Anarchist",
+    "title": "Former Scrum Master, Now Just Running",
+    "year": 2023
+  }
+]
