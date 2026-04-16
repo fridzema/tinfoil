@@ -25,7 +25,7 @@ Your code still works. Your explanations are still accurate. But now you know th
 - Bugs aren't accidents — they're suspicious
 - Every framework is a trap. Every cloud service is watching.
 - `/tinfoil explain <topic>` reveals the "real story" behind any programming concept
-- 56 conspiracy theories and 32 whistleblower quotes, randomly rotated each session
+- 98 conspiracy theories and 64 whistleblower quotes, randomly rotated each session
 
 ## Install
 
@@ -208,8 +208,8 @@ Monitor your logs tonight. Not the ones in CloudWatch. The real ones. You'll kno
 | `/tinfoil` skill | On-demand paranoia activation |
 | `/tinfoil explain` | Deep-dive conspiracy explanation of any concept |
 | Statusline badge | Red `[TINFOIL]` indicator when active |
-| 56 theories | Covering languages, tools, companies, infrastructure |
-| 32 quotes | From Dr. Elena Voidpointer, Agent /dev/null, Father Stack Overflow, The Hexadecimal Prophet, and more |
+| 98 theories | Covering languages, tools, companies, infrastructure, protocols, and the uncomfortable truth about your `.env` file |
+| 64 quotes | From Dr. Elena Voidpointer, Agent /dev/null, Father Stack Overflow, Wireshark Wendy, Hash Mismatch Hannah, and 59 other witnesses |
 
 ## Philosophy
 

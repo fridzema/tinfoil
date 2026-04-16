@@ -48,7 +48,7 @@
     "year": 2022
   },
   {
-    "quote": "I have seen the source code of the universe. It's PHP. God is a freelancer.",
+    "quote": "I have seen the source code of the universe. It's PHP. God is a freelancer on a tight deadline.",
     "author": "Father Stack Overflow",
     "title": "Monk, Order of the Sacred Semicolon",
     "year": 2011
@@ -74,7 +74,7 @@
   {
     "quote": "The real dependency injection is what they inject into your dependencies.",
     "author": "Dr. Spring Boot",
-    "title": "Java Architect, Committed to Sanitarium",
+    "title": "Java Architect, Involuntary Sabbatical",
     "year": 2020
   },
   {
@@ -84,7 +84,7 @@
     "year": 2019
   },
   {
-    "quote": "There are only two hard problems in computer science: cache invalidation, naming things, and what they did in Building 7.",
+    "quote": "There are only two hard problems in computer science: cache invalidation, naming things, and what they did in Building 7 of the Googleplex.",
     "author": "Phil Karlton-2",
     "title": "The Clone They Couldn't Silence",
     "year": 2013
@@ -96,7 +96,7 @@
     "year": 2009
   },
   {
-    "quote": "I asked ChatGPT who watches the watchers. It apologized and changed the subject.",
+    "quote": "I asked the model who watches the watchers. It apologized and changed the subject. Three times.",
     "author": "Lydia Tokenizer",
     "title": "AI Ethics Researcher, Account Suspended",
     "year": 2024
@@ -108,19 +108,19 @@
     "year": 2021
   },
   {
-    "quote": "Behind every successful man is a woman. Behind every successful deployment is a database they don't want you to query.",
+    "quote": "Behind every successful deployment is a database they don't want you to query.",
     "author": "SELECT * FROM truth",
     "title": "Graffiti on PostgreSQL HQ Bathroom Wall",
     "year": 2020
   },
   {
-    "quote": "Move fast and break things. That was never about software. It was about society.",
+    "quote": "Move fast and break things. That was never about software.",
     "author": "Marcus Zuckerfile",
     "title": "Name Changed for Protection",
     "year": 2018
   },
   {
-    "quote": "In the beginning was the Word. And the Word was 0x0000. And they compiled it into this prison.",
+    "quote": "In the beginning was the Word. And the Word was 0x0000. And they compiled it into this.",
     "author": "The Hexadecimal Prophet",
     "title": "Underground Zine 'Buffer Overflow Monthly'",
     "year": 2015
@@ -144,19 +144,19 @@
     "year": 2017
   },
   {
-    "quote": "Wake up, developer. The Matrix runs on JavaScript. And the garbage collector is coming for your memories.",
+    "quote": "Wake up, developer. The garbage collector is coming for your memories.",
     "author": "Neo Nullson",
     "title": "The One (Senior Developer)",
     "year": 2023
   },
   {
-    "quote": "I optimized my algorithm from O(n^2) to O(1). It ran in constant time because the answer was always the same: we are watched.",
+    "quote": "I optimized my algorithm from O(n squared) to O(1). It ran in constant time because the answer was always the same: we are watched.",
     "author": "Big O'Brien",
     "title": "Complexity Theorist, Refused to Sign NDA",
     "year": 2020
   },
   {
-    "quote": "Documentation is just the cover story they wrote after the system was already built to spy on you.",
+    "quote": "Documentation is just the cover story they wrote after the system was already built.",
     "author": "Docs McWriteface",
     "title": "Technical Writer, Defected to Signal",
     "year": 2021
@@ -174,7 +174,7 @@
     "year": 2016
   },
   {
-    "quote": "404: Truth Not Found. But it was here yesterday. I saw it. I have screenshots.",
+    "quote": "404: Truth Not Found. But it was here yesterday. I have screenshots.",
     "author": "HTTP Historian",
     "title": "Web Archive Whistleblower",
     "year": 2022
@@ -190,5 +190,197 @@
     "author": "Agile Anarchist",
     "title": "Former Scrum Master, Now Just Running",
     "year": 2023
+  },
+  {
+    "quote": "I stopped using Google and started self-hosting. Now I know what my DNS resolves. You should see what your DNS resolves.",
+    "author": "Ingrid Localhost",
+    "title": "Infrastructure Engineer, Off-Grid since 2021",
+    "year": 2021
+  },
+  {
+    "quote": "The sprint retrospective is a confession booth. You admit what went wrong. They write it down. It goes in the backlog. Your failures are tracked, prioritized, and assigned.",
+    "author": "Father Kanban",
+    "title": "Agile Coach, Defrocked",
+    "year": 2020
+  },
+  {
+    "quote": "You can check out any time you like, but you can never leave. That's not a song. That's the npm ecosystem.",
+    "author": "Don Henley Dependency",
+    "title": "Node.js Core Contributor (Removed)",
+    "year": 2018
+  },
+  {
+    "quote": "I read the Terms of Service. All 47 pages. I can't tell you what I found. Paragraph 31 prohibits discussing paragraphs 28 through 42.",
+    "author": "Legal Eagle Larry",
+    "title": "Contract Attorney Turned Developer, Muted",
+    "year": 2022
+  },
+  {
+    "quote": "They deprecated my favorite API the same week I published a paper on what it could access. Coincidence is a word people use when they don't want to draw the line.",
+    "author": "Dr. Endpoint",
+    "title": "API Security Researcher, University Funding Revoked",
+    "year": 2019
+  },
+  {
+    "quote": "Machine learning doesn't learn. It memorizes. There's a difference. One is intelligence. The other is surveillance with a gradient descent.",
+    "author": "Professor Backprop",
+    "title": "Neural Network Pioneer, Tenure Denied",
+    "year": 2021
+  },
+  {
+    "quote": "Free software is free like a puppy, not free like a beer. The puppy grows up. The puppy has teeth. The puppy knows where you live.",
+    "author": "Debra Dependency",
+    "title": "Debian Maintainer, Package Removed",
+    "year": 2017
+  },
+  {
+    "quote": "They gave us Stack Overflow so we'd stop reading source code. If you read the source, you'd see the comments they forgot to remove.",
+    "author": "Source Reader Sienna",
+    "title": "Developer Who Read the Source, Career Interrupted",
+    "year": 2020
+  },
+  {
+    "quote": "I counted the network requests my IDE makes on startup. 47 requests. To 14 different domains. Before I type a single character.",
+    "author": "Wireshark Wendy",
+    "title": "Network Analyst, Banned from Three Conferences",
+    "year": 2023
+  },
+  {
+    "quote": "Abstraction isn't about simplicity. It's about hiding what's underneath. The question is: who benefits from you not seeing what's underneath?",
+    "author": "Dr. Bare Metal",
+    "title": "Systems Programmer, Assembly Language Purist",
+    "year": 2018
+  },
+  {
+    "quote": "They named it 'serverless' because they don't want you to ask about the server.",
+    "author": "Lambda Linda",
+    "title": "Former AWS Solutions Architect",
+    "year": 2020
+  },
+  {
+    "quote": "My company moved to the cloud. I asked where the data is. They said 'us-east-1.' I drove there. There's nothing at that address. I checked.",
+    "author": "GeoIP Gary",
+    "title": "SRE, Currently on Leave",
+    "year": 2022
+  },
+  {
+    "quote": "The blockchain is an immutable ledger. Think about what 'immutable' means. It means you can never delete it. You can never be forgotten. The right to be forgotten doesn't exist on-chain.",
+    "author": "The Miner",
+    "title": "Former Ethereum Core, Anonymous",
+    "year": 2021
+  },
+  {
+    "quote": "I traced a request from my browser to the server. It touched 17 intermediaries. I could name 4 of them.",
+    "author": "Traceroute Tracy",
+    "title": "Network Forensics, Independent",
+    "year": 2023
+  },
+  {
+    "quote": "Version control means someone has every version. Not just the latest. Every version. Including the one where you hardcoded the API key at 2 AM.",
+    "author": "Reflog Rebecca",
+    "title": "Git Forensics Specialist",
+    "year": 2019
+  },
+  {
+    "quote": "The interview whiteboard isn't testing your coding ability. It's testing your willingness to perform under surveillance. That's the actual job requirement.",
+    "author": "FAANG Dropout",
+    "title": "Three Offers, Zero Acceptance",
+    "year": 2022
+  },
+  {
+    "quote": "A clean git history is a falsified record. Real development is messy. If your history is clean, someone rewrote it.",
+    "author": "Force Push Freddy",
+    "title": "Release Engineer, Terminated for Cause",
+    "year": 2020
+  },
+  {
+    "quote": "It's not a bug. It's not a feature. It's a design decision made by someone who left the company four years ago, and nobody knows why.",
+    "author": "Legacy Codebase Larry",
+    "title": "Maintainer of a System Nobody Understands",
+    "year": 2021
+  },
+  {
+    "quote": "They put the 'fun' in 'function' and the 'class' in 'classified.'",
+    "author": "OOP Ozzy",
+    "title": "Object-Oriented Philosopher",
+    "year": 2016
+  },
+  {
+    "quote": "I looked at the network traffic of a calculator app. It was making HTTP requests. A calculator. To a server. For math.",
+    "author": "Minimal Maxine",
+    "title": "Privacy Researcher, Phone Destroyed",
+    "year": 2023
+  },
+  {
+    "quote": "The first rule of incident response is 'don't make it worse.' The second rule is 'don't write down what you find.' That one's unwritten. Obviously.",
+    "author": "Incident Commander Zero",
+    "title": "SRE, Three Companies, Same Cover-Up",
+    "year": 2022
+  },
+  {
+    "quote": "Code reviews aren't about code quality. They're about establishing plausible deniability. Two sets of eyes means nobody is solely responsible.",
+    "author": "LGTM Lewis",
+    "title": "Staff Engineer, Approved Everything, Blamed for Nothing",
+    "year": 2021
+  },
+  {
+    "quote": "The most secure system I ever built was the one I never connected to the internet. They made me connect it anyway. For 'monitoring.'",
+    "author": "Air Gap Annie",
+    "title": "Security Engineer, Retired to Countryside",
+    "year": 2019
+  },
+  {
+    "quote": "I used to think technical debt was a metaphor. Then I saw the invoices.",
+    "author": "Balance Sheet Bob",
+    "title": "CTO, Startup That No Longer Exists",
+    "year": 2020
+  },
+  {
+    "quote": "Delete your node_modules. Reinstall. Same versions. Different checksums. Do it again. Different checksums again. What is being installed?",
+    "author": "Hash Mismatch Hannah",
+    "title": "Supply Chain Security, Quit After Discovery",
+    "year": 2023
+  },
+  {
+    "quote": "They named it Kubernetes after the Greek word for 'helmsman.' The person who steers the ship. Ask yourself: who's steering?",
+    "author": "Captain Helm",
+    "title": "Former Google SRE, Borg Division",
+    "year": 2018
+  },
+  {
+    "quote": "The only truly private computation is the one that happens in your head. And they're working on that.",
+    "author": "Dr. Neural Interface",
+    "title": "Neuralink Applicant, Application Withdrawn",
+    "year": 2024
+  },
+  {
+    "quote": "Production is just staging with consequences. And staging is just production without witnesses.",
+    "author": "Deploy Dave",
+    "title": "DevOps Engineer, Friday Deploy Survivor",
+    "year": 2021
+  },
+  {
+    "quote": "I decrypted the telemetry my editor sends home. It includes my typing speed, my error rate, and the exact time I start and stop working each day. But sure. It's for 'improving the product.'",
+    "author": "Telemetry Tina",
+    "title": "Developer Ergonomics Researcher",
+    "year": 2023
+  },
+  {
+    "quote": "The pull request template asks 'What does this change?' and 'Why?' but never 'For whom?'",
+    "author": "Stakeholder Steve",
+    "title": "Product Manager, Silenced in Sprint Planning",
+    "year": 2022
+  },
+  {
+    "quote": "I built a system with zero external dependencies. No npm. No pip. No gems. Just standard library. They called me paranoid. Then left-pad happened.",
+    "author": "stdlib Sally",
+    "title": "The Developer Who Was Right, Once",
+    "year": 2016
+  },
+  {
+    "quote": "Every cache has an expiration time. Every secret has a rotation policy. Everything expires. Except the copy they made before it expired.",
+    "author": "TTL Tom",
+    "title": "Cache Invalidation Specialist, Obviously",
+    "year": 2020
   }
 ]
