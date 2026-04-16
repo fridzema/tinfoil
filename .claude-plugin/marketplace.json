@@ -1,0 +1,18 @@
+{
+  "name": "tinfoil",
+  "metadata": {
+    "description": "Full paranoia programming conspiracy mode. The truth is in your terminal."
+  },
+  "owner": {
+    "name": "fridzema",
+    "url": "https://github.com/fridzema"
+  },
+  "plugins": [
+    {
+      "name": "tinfoil",
+      "description": "Programming conspiracy theories and paranoid observations. 138 theories, 96 quotes. The truth is in your terminal.",
+      "source": "./",
+      "category": "fun"
+    }
+  ]
+}

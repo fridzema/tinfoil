@@ -29,8 +29,11 @@ Your code still works. Your explanations are still accurate. But now you know th
 
 ## Install
 
+### Claude Code plugin (recommended)
+
 ```bash
-claude plugins add fridzema/tinfoil
+claude plugin marketplace add fridzema/tinfoil
+claude plugin install tinfoil@tinfoil
 ```
 
 ### Standalone (hooks only)
@@ -41,6 +44,12 @@ bash hooks/install.sh
 
 ### Uninstall
 
+Plugin:
+```bash
+claude plugin uninstall tinfoil@tinfoil
+```
+
+Standalone:
 ```bash
 bash hooks/uninstall.sh
 ```

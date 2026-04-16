@@ -1,0 +1,35 @@
+{
+  "name": "tinfoil",
+  "description": "Full paranoia programming conspiracy mode. Injects absurd conspiracy theories, paranoid observations, and fictional whistleblower quotes into every interaction.",
+  "author": {
+    "name": "fridzema",
+    "url": "https://github.com/fridzema"
+  },
+  "skills": ["./skills/tinfoil"],
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/hooks/tinfoil-activate.js",
+            "timeout": 5,
+            "statusMessage": "The truth is loading..."
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/hooks/tinfoil-tracker.js",
+            "timeout": 5,
+            "statusMessage": "Tracking tinfoil mode..."
+          }
+        ]
+      }
+    ]
+  }
+}
