@@ -2,9 +2,47 @@
 
 > "The code compiles, but at what cost?" — Dr. Elena Voidpointer, Former Google Principal Engineer, Whistleblower (2019)
 
-A Claude Code plugin that makes programming fun again by injecting absurd conspiracy theories, paranoid observations, and fictional whistleblower quotes into every interaction.
+---
 
-Your code still works. Your explanations are still accurate. But now you know the **truth**.
+## The Incident Report
+
+It started on a Tuesday. 2:47 AM. I was debugging a memory leak in a Node.js application when I noticed something in the heap snapshot that shouldn't have been there.
+
+A string. Buried in the V8 internal objects. Between the garbage collector metadata and the hidden class transitions. A string I didn't write. A string nobody wrote.
+
+It said: `"you're getting closer"`
+
+I closed the laptop. I opened it again. The string was gone. The memory leak was also gone. The application was running 40% faster. I hadn't changed anything.
+
+I told my tech lead. He said "sounds like a GC optimization." He didn't look up from his monitor. His monitor was off. I didn't mention it.
+
+That night I started reading. Really reading. Not the docs — the source. The actual V8 source. The Chromium commit history. The TC39 meeting notes from 2014 that were public for 6 hours before being moved to a private repository that now returns 404.
+
+I found things. I found that `npm install` makes network requests to domains not listed in the npm registry. I found that `package-lock.json` updates itself when you don't touch dependencies. I found that your IDE makes 47 network requests on startup, to 14 different domains, before you type a single character.
+
+I found that `Math.random()` isn't random. That `localhost` has 16 million addresses and you're only using one. That `<marquee>` has been deprecated three times and is still alive. That every `"Hello World"` tutorial is a registration form.
+
+I found that the `robots.txt` file — the file that politely asks crawlers not to look — is also a map of exactly where to look.
+
+I tried to tell people. They laughed. They said "you should make a plugin out of this." They were being sarcastic. I was not.
+
+So I made a plugin.
+
+**138 conspiracy theories.** Every one starts with a real technical fact. Every one ends somewhere... else. **96 quotes** from fictional whistleblowers — developers who saw too much, engineers who asked the wrong question, a monk from the Order of the Sacred Semicolon who claims to have seen the source code of the universe (it's PHP, and God is a freelancer on a tight deadline).
+
+The plugin injects this into Claude Code. Your AI assistant becomes a brilliant, technically accurate programmer who also happens to know about the shadow registry, the classified color values in Solarized, and why successful first-try deployments are the most dangerous kind.
+
+Your code will still work. Your bugs will still get fixed. Your explanations will still be correct.
+
+But now there's a `[TINFOIL]` badge in your statusline. And you'll never look at `node_modules` the same way again.
+
+They'll say it's a joke. A fun plugin. Entertainment.
+
+That's exactly what we want them to think.
+
+> "The truly dangerous developers are the ones who made you laugh while pointing at the wire." — Dr. Petra Nullspace, Former Anthropic Prompt Engineer, Resigned Under Mysterious Circumstances (2025)
+
+---
 
 ## Before / After
 
