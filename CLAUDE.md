@@ -9,10 +9,12 @@ Tinfoil is a Claude Code plugin that injects programming conspiracy theories, ab
 | File | Purpose |
 |------|---------|
 | `skills/tinfoil/SKILL.md` | Core behavioral rules — edit here for behavior changes |
-| `conspiracies/theories.json` | Pool of 50+ conspiracy theories |
-| `conspiracies/quotes.json` | Pool of 30+ fictional whistleblower quotes |
+| `conspiracies/theories.json` | Pool of 217 conspiracy theories |
+| `conspiracies/quotes.json` | Pool of 163 fictional whistleblower quotes |
 | `hooks/tinfoil-activate.js` | SessionStart hook — writes flag, emits conspiracy context |
 | `hooks/tinfoil-tracker.js` | UserPromptSubmit hook — tracks /tinfoil commands |
+| `hooks/tinfoil-pretool.js` | PreToolUse hook — paranoid flavor on dangerous Bash commands |
+| `hooks/tinfoil-signoff.js` | Stop hook — occasional paranoid sign-off quote |
 | `hooks/tinfoil-statusline.sh` | Statusline badge — shows [TINFOIL] when active |
 | `hooks/install.sh` | Standalone install script |
 | `hooks/uninstall.sh` | Standalone uninstall script |

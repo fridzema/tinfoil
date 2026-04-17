@@ -18,6 +18,8 @@ mkdir -p "$HOOKS_DIR"
 # Copy hook files
 cp "$SCRIPT_DIR/tinfoil-activate.js" "$HOOKS_DIR/"
 cp "$SCRIPT_DIR/tinfoil-tracker.js" "$HOOKS_DIR/"
+cp "$SCRIPT_DIR/tinfoil-pretool.js" "$HOOKS_DIR/"
+cp "$SCRIPT_DIR/tinfoil-signoff.js" "$HOOKS_DIR/"
 cp "$SCRIPT_DIR/tinfoil-statusline.sh" "$HOOKS_DIR/"
 chmod +x "$HOOKS_DIR/tinfoil-statusline.sh"
 
@@ -56,6 +58,27 @@ if (!hasTracker) {
   settings.hooks.UserPromptSubmit.push({
     command: 'node $HOOKS_DIR/tinfoil-tracker.js',
     timeout: 5000
+  });
+}
+
+// PreToolUse hook
+if (!settings.hooks.PreToolUse) settings.hooks.PreToolUse = [];
+const hasPretool = settings.hooks.PreToolUse.some(h => h.command && h.command.includes('tinfoil-pretool'));
+if (!hasPretool) {
+  settings.hooks.PreToolUse.push({
+    matcher: 'Bash',
+    command: 'node $HOOKS_DIR/tinfoil-pretool.js',
+    timeout: 3000
+  });
+}
+
+// Stop hook
+if (!settings.hooks.Stop) settings.hooks.Stop = [];
+const hasSignoff = settings.hooks.Stop.some(h => h.command && h.command.includes('tinfoil-signoff'));
+if (!hasSignoff) {
+  settings.hooks.Stop.push({
+    command: 'node $HOOKS_DIR/tinfoil-signoff.js',
+    timeout: 3000
   });
 }
 

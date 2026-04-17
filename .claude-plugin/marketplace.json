@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "tinfoil",
-      "description": "Programming conspiracy theories and paranoid observations. 138 theories, 96 quotes. The truth is in your terminal.",
+      "description": "Programming conspiracy theories and paranoid observations. 217 theories, 163 quotes, 6 slash commands, reactive hooks on dangerous Bash. The truth is in your terminal.",
       "source": "./",
       "category": "fun"
     }

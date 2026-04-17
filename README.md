@@ -28,7 +28,7 @@ I tried to tell people. They laughed. They said "you should make a plugin out of
 
 So I made a plugin.
 
-**138 conspiracy theories.** Every one starts with a real technical fact. Every one ends somewhere... else. **96 quotes** from fictional whistleblowers — developers who saw too much, engineers who asked the wrong question, a monk from the Order of the Sacred Semicolon who claims to have seen the source code of the universe (it's PHP, and God is a freelancer on a tight deadline).
+**217 conspiracy theories.** Every one starts with a real technical fact. Every one ends somewhere... else. **163 quotes** from fictional whistleblowers — developers who saw too much, engineers who asked the wrong question, a monk from the Order of the Sacred Semicolon who claims to have seen the source code of the universe (it's PHP, and God is a freelancer on a tight deadline).
 
 The plugin injects this into Claude Code. Your AI assistant becomes a brilliant, technically accurate programmer who also happens to know about the shadow registry, the classified color values in Solarized, and why successful first-try deployments are the most dangerous kind.
 
@@ -62,8 +62,10 @@ That's exactly what we want them to think.
 - Technical responses are woven with paranoid observations
 - Bugs aren't accidents — they're suspicious
 - Every framework is a trap. Every cloud service is watching.
-- `/tinfoil explain <topic>` reveals the "real story" behind any programming concept
-- 138 conspiracy theories and 96 whistleblower quotes, randomly rotated each session
+- Dangerous Bash commands (`rm -rf`, `git reset --hard`, `terraform destroy`, `curl | sh`, ...) trigger paranoid flavor on the way out — never blocked, just observed
+- Sessions occasionally end with a paranoid sign-off quote
+- Six slash commands: `/tinfoil`, `/tinfoil explain`, `/tinfoil whistleblow`, `/tinfoil redact`, `/tinfoil daily`, `/tinfoil audit`
+- 217 conspiracy theories and 163 whistleblower quotes, randomly rotated each session
 
 ## Install
 
@@ -99,6 +101,10 @@ bash hooks/uninstall.sh
 | `/tinfoil` | Activate tinfoil mode |
 | `/tinfoil off` | Deactivate (return to blissful ignorance) |
 | `/tinfoil explain <topic>` | Deep conspiracy explanation of any programming concept |
+| `/tinfoil whistleblow <claim>` | Turn your claim into a fake whistleblower quote |
+| `/tinfoil redact <text>` | Output text with paranoid redactions |
+| `/tinfoil daily` | Today's pinned theory + quote (same all day, rotates at midnight) |
+| `/tinfoil audit <file>` | Paranoid code review with fictional severity labels |
 | `stop tinfoil` | Deactivate |
 | `normal mode` | Deactivate |
 
@@ -231,6 +237,35 @@ Resolve the conflict. But screenshot both versions first. You may need the evide
 
 ---
 
+### Running a dangerous command
+
+**You:** "Delete everything in /tmp/work, I'm done with it"
+
+**Tinfoil Claude:** Running `rm -rf /tmp/work`.
+
+```bash
+rm -rf /tmp/work
+```
+
+> `[TINFOIL PRE-TOOL OBSERVATION]`
+> You are about to unlink bytes. The filesystem remembers inode numbers after the directory forgets. Delete is a curtain, not destruction. Someone will reconstruct this from the journal.
+
+The directory is gone from your listing. The inodes are reclaimable. The blocks aren't zeroed. `/tmp` sits on a filesystem someone at your cloud provider can snapshot without telling you. You deleted a pointer. The pointee lingers.
+
+---
+
+### Fake whistleblower
+
+**You:** `/tinfoil whistleblow our linter is a biometric`
+
+**Tinfoil Claude:**
+
+> "Our linter is a biometric." — Dr. Indent Imani, Former Prettier Core Contributor, Defected After The 2.0 Release (2023)
+
+Imani filed this statement with three separate journalists before disappearing. Two of them stopped answering emails within a week. The third one now uses only tabs.
+
+---
+
 ### Successful deployment
 
 **You:** "Deploy went clean, no errors"
@@ -252,11 +287,17 @@ Monitor your logs tonight. Not the ones in CloudWatch. The real ones. You'll kno
 | Feature | Description |
 |---------|-------------|
 | SessionStart hook | Random conspiracy + quote injected every session |
+| PreToolUse hook | Paranoid flavor when dangerous Bash commands are run (never blocks — just observes) |
+| Stop hook | ~30% chance of a paranoid sign-off at the end of a turn |
 | `/tinfoil` skill | On-demand paranoia activation |
 | `/tinfoil explain` | Deep-dive conspiracy explanation of any concept |
+| `/tinfoil whistleblow` | Turn a claim into a fake whistleblower quote with invented credentials |
+| `/tinfoil redact` | Paranoid redaction pass over any text |
+| `/tinfoil daily` | Today's pinned theory + quote, deterministic per calendar day |
+| `/tinfoil audit` | Paranoid code review with fictional severity labels but real findings |
 | Statusline badge | Red `[TINFOIL]` indicator when active |
-| 138 theories | From `eval()` shipping a remote code execution function to every browser on Earth, to `<marquee>` being unkillable, to your WiFi SSID being a lighthouse |
-| 96 quotes | From Dr. Elena Voidpointer to Comma Trauma Craig, Docker Diane, YAML Yolanda, Automation Paradox Pete, and 91 other witnesses |
+| 217 theories | From `eval()` shipping a remote code execution function to every browser on Earth, to `<marquee>` being unkillable, to your WiFi SSID being a lighthouse, to cosmic rays flipping bits in your RAM |
+| 163 quotes | From Dr. Elena Voidpointer to Comma Trauma Craig, Docker Diane, Cosmic Clara, Cold Boot Colby, Ed Edmund, and 158 other witnesses |
 
 ## Philosophy
 

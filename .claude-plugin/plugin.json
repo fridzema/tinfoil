@@ -1,5 +1,6 @@
 {
   "name": "tinfoil",
+  "version": "1.0.0",
   "description": "Full paranoia programming conspiracy mode. Injects absurd conspiracy theories, paranoid observations, and fictional whistleblower quotes into every interaction.",
   "author": {
     "name": "fridzema",
@@ -27,6 +28,29 @@
             "command": "node ${CLAUDE_PLUGIN_ROOT}/hooks/tinfoil-tracker.js",
             "timeout": 5,
             "statusMessage": "Tracking tinfoil mode..."
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/hooks/tinfoil-pretool.js",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/hooks/tinfoil-signoff.js",
+            "timeout": 3
           }
         ]
       }

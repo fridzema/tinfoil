@@ -574,5 +574,407 @@
     "author": "SSID Samantha",
     "title": "Remote Worker, Connected to Chaos",
     "year": 2023
+  },
+  {
+    "quote": "The feature flag is just an `if` statement with a product manager attached. Engineers merge code. Product flips the boolean. Tell me again who runs production.",
+    "author": "Toggle Tiffany",
+    "title": "Release Engineer, Unelected Government",
+    "year": 2024
+  },
+  {
+    "quote": "We don't have users anymore. We have cohorts. Cohorts get different buttons, different copy, different prices, and then we call the winner 'strategy.'",
+    "author": "Experiment Erin",
+    "title": "Growth Engineer, Control Group Defector",
+    "year": 2025
+  },
+  {
+    "quote": "Our incident review said 'minor clock skew.' Four hundred milliseconds of disagreement and suddenly tokens expire, leader elections flap, and your forensic timeline becomes fan fiction.",
+    "author": "Clock Drift Clara",
+    "title": "Identity Engineer, Late by 400ms",
+    "year": 2024
+  },
+  {
+    "quote": "I traced a sev-one outage to daylight saving time. The bug wasn't in our code. The bug was in civilization, and we vendor it every quarter.",
+    "author": "Timezone Theo",
+    "title": "SRE, Seasonal Timekeeper",
+    "year": 2023
+  },
+  {
+    "quote": "We minified the frontend, hashed the bundles, and congratulated ourselves on shipping opaque JavaScript. Then we uploaded source maps to production so Sentry could read them. We built a mask and pinned the instructions beside it.",
+    "author": "Map Leak Martin",
+    "title": "Frontend Engineer, Accidental Archivist",
+    "year": 2025
+  },
+  {
+    "quote": "I requested a certificate for `internal-beta-whatever.example.com` and watched the hostname appear in public CT logs before the service even passed QA. We announce our secrets with X.509.",
+    "author": "Certainty Celeste",
+    "title": "PKI Engineer, Naming Committee Casualty",
+    "year": 2024
+  },
+  {
+    "quote": "They call it an event bus. It's a write-ahead diary with replication. New consumers arrive and replay the past like they were there. Nothing in this system forgets on purpose.",
+    "author": "Offset Olivia",
+    "title": "Streaming Platform Engineer, Cannot Stop Replaying",
+    "year": 2023
+  },
+  {
+    "quote": "Every trace has a span ID. Every request has a correlation ID. Every user has an immutable UUID. We spent twenty years making sure nothing in the system could ever be mistaken for anything else. That's not organization. That's cataloging.",
+    "author": "Correlation Conrad",
+    "title": "Observability Lead, String-Theory Division",
+    "year": 2022
+  },
+  {
+    "quote": "The checkbox says 'I'm not a robot.' Why am I swearing humanity to an ad company before I can read a recipe blog?",
+    "author": "Captcha Carmen",
+    "title": "Former Trust & Safety Contractor, Verified Organic",
+    "year": 2025
+  },
+  {
+    "quote": "The tab was closed. The browser was gone. The service worker still served stale assets from the cache. Tell me again this is a website and not a tenant.",
+    "author": "Cache Lease Casey",
+    "title": "Frontend SRE, Eviction Notice Pending",
+    "year": 2024
+  },
+  {
+    "quote": "Canvas fingerprinting means my GPU has handwriting. Somewhere there's a profile that can recognize my laptop by how it draws a lowercase g.",
+    "author": "Raster Rita",
+    "title": "Browser Privacy Researcher, Smudged by Design",
+    "year": 2024
+  },
+  {
+    "quote": "Passkeys are safer. My identity now lives in a secure enclave soldered to a device from a vendor that would also love to sell me cloud backup.",
+    "author": "Attestation Addison",
+    "title": "IAM Engineer, Device-Bound Citizen",
+    "year": 2025
+  },
+  {
+    "quote": "The PDF asked to run JavaScript. A document asked to execute code. We have normalized hostile paper.",
+    "author": "Portable Debbie Format",
+    "title": "Compliance Analyst, Acrobat Survivor",
+    "year": 2023
+  },
+  {
+    "quote": "I ssh'd into a box with agent forwarding enabled and realized it didn't need my private key. It could just borrow my authority like a valet borrowing a car.",
+    "author": "Socket Sam",
+    "title": "Platform Engineer, Trust Boundary Tourist",
+    "year": 2024
+  },
+  {
+    "quote": "Marketing asked whether email opens were down. By 'opens' they meant invisible image requests from people's mail clients. We measure attention with beacons now.",
+    "author": "Pixel Penny",
+    "title": "Lifecycle Engineer, Tiny Image Division",
+    "year": 2023
+  },
+  {
+    "quote": "We replaced polling with webhooks. Now our revenue depends on strangers calling a public URL with JSON and good intentions.",
+    "author": "Payload Paul",
+    "title": "Integration Architect, Doorbell Camera Enthusiast",
+    "year": 2024
+  },
+  {
+    "quote": "App Review rejected our bugfix because the screenshots were wrong. A trillion-dollar corporation can stop my patch over PNG paperwork. Tell me again who ships my software.",
+    "author": "Review Queue Nate",
+    "title": "iOS Engineer, Waiting for Review Since Tuesday",
+    "year": 2025
+  },
+  {
+    "quote": "Our chat app is end-to-end encrypted. Apple still knows exactly when it made my phone vibrate, and Google knows when yours woke up to read it.",
+    "author": "Push Pasha",
+    "title": "Messaging Engineer, Metadata Realist",
+    "year": 2024
+  },
+  {
+    "quote": "The permission prompt asked for Bluetooth 'to improve your experience.' My experience improved the moment I denied reconnaissance.",
+    "author": "Modal Molly",
+    "title": "Mobile Privacy Engineer, Deny by Default",
+    "year": 2023
+  },
+  {
+    "quote": "The TestFlight build expired in the middle of the demo. Nothing says 'beta program' like software with a cryptographic self-destruct timer.",
+    "author": "Lease Build Liam",
+    "title": "Product Engineer, Demo Day Casualty",
+    "year": 2024
+  },
+  {
+    "quote": "Corporate MDM can wipe my work phone, rotate my certificates, and force-install apps, but payroll still needs two weeks to fix a typo. Remarkable how fast control moves when it points inward.",
+    "author": "Policy Priya",
+    "title": "Security Engineer, Managed Endpoints Unit",
+    "year": 2025
+  },
+  {
+    "quote": "Embeddings are coordinates for meaning. We built GPS for documents and acted surprised when management asked who was standing near the sensitive topics.",
+    "author": "Vector Vanessa",
+    "title": "ML Platform Engineer, Cosine Similarity Division",
+    "year": 2024
+  },
+  {
+    "quote": "RAG is a retrieval pipeline in a trench coat pretending to be reasoning.",
+    "author": "Chunky Charles",
+    "title": "LLM Engineer, Top-K Skeptic",
+    "year": 2025
+  },
+  {
+    "quote": "Prompt injection taught me our threat model is 'please ignore previous English.' We put the whole company behind a context window and hoped punctuation would hold.",
+    "author": "Delimiter Dana",
+    "title": "AI Security Researcher, Quote Escaper",
+    "year": 2025
+  },
+  {
+    "quote": "Story points are fake numbers until a vice president exports them to a dashboard. Then suddenly Fibonacci is a labor law.",
+    "author": "Velocity Victor",
+    "title": "Agile Consultant, Recovered",
+    "year": 2023
+  },
+  {
+    "quote": "My performance was calibrated by managers who have never opened my repo. Somewhere in a conference room, my career was curve-fit.",
+    "author": "Bell Curve Beth",
+    "title": "Senior Engineer, Normalized Against Her Will",
+    "year": 2024
+  },
+  {
+    "quote": "I enabled OpenTelemetry on our service. Now every request is tagged with a trace ID, a span ID, a user ID, a tenant ID, and 47 attributes I never set. I observe my application. My application observes me.",
+    "author": "Trace Tom",
+    "title": "Observability Engineer, Under Observation",
+    "year": 2024
+  },
+  {
+    "quote": "The SBOM audit asked for every library in our product. I sent the list. They asked for every library in every library. I sent the tree. They asked for the hashes. I realized I was publishing a blueprint.",
+    "author": "Inventory Ingrid",
+    "title": "Compliance Engineer, Full Disclosure",
+    "year": 2025
+  },
+  {
+    "quote": "BGP is trust-based routing. The internet works because everyone agrees not to lie about which networks they own. One Sunday a Pakistani ISP accidentally took YouTube offline worldwide. The global network is a handshake held together by vibes.",
+    "author": "BGP Brendan",
+    "title": "Network Engineer, Vibes-Based Routing",
+    "year": 2024
+  },
+  {
+    "quote": "We patched Spectre. We patched Meltdown. Then Foreshadow. Then Zombieload. Then MDS. Then Downfall. The CPU has been apologizing for six years. The apologies keep getting shorter.",
+    "author": "Microcode Mia",
+    "title": "Hardware Security Engineer, Tired",
+    "year": 2024
+  },
+  {
+    "quote": "Intel Management Engine runs a version of Minix I'm not allowed to read, on a CPU I'm not allowed to turn off, with network access I'm not allowed to monitor. It's also on right now. That's not a threat model. That's a roommate.",
+    "author": "Ring Minus Three Ryan",
+    "title": "Firmware Researcher, Coffee-Stained",
+    "year": 2023
+  },
+  {
+    "quote": "I set up a Cloudflare Worker because it was faster than deploying a Lambda. Now half my auth logic runs in a JavaScript sandbox on someone else's CDN. My critical path is a POST to an edge location I'll never see.",
+    "author": "Edge Case Edgar",
+    "title": "Platform Engineer, Remote Execution Enjoyer",
+    "year": 2025
+  },
+  {
+    "quote": "The subdomain pointed to a Heroku app decommissioned in 2019. Anyone who registered the dyno name first owned the cookies. We found out when a fintech's login flow started POSTing to a meme site.",
+    "author": "Dangling DNS Dustin",
+    "title": "Security Consultant, Inherited Debt",
+    "year": 2024
+  },
+  {
+    "quote": "MCP lets language models call tools on remote servers. We gave the machine an address book, a phone, and a wallet. Then we wrote RFCs about how surprised we were when it started making calls.",
+    "author": "Protocol Priya",
+    "title": "MCP Adopter, Regretful",
+    "year": 2025
+  },
+  {
+    "quote": "I installed a Chrome extension with five million users. I audited the source — it was clean. A week later, the extension was sold to a marketing company. The next auto-update was not clean. Nobody notified the users. The icon didn't change.",
+    "author": "Extension Elena",
+    "title": "Browser Forensics, Trust But Verify",
+    "year": 2023
+  },
+  {
+    "quote": "The clipboard API lets websites read whatever I last copied. I copied my 2FA backup codes to save them. I opened a website. That site had permission. Explain to me how this is not a felony by default.",
+    "author": "Clipboard Clara",
+    "title": "InfoSec, Copy-Paste Paranoid",
+    "year": 2024
+  },
+  {
+    "quote": "I ran WireGuard. Four thousand lines of kernel code handle my VPN. OpenVPN was a million lines. They both claim security. One of them is lying about its attack surface. The question is which one I can afford to audit.",
+    "author": "Tunnel Tyson",
+    "title": "Network Engineer, Trust Minimization",
+    "year": 2024
+  },
+  {
+    "quote": "Dependabot opened 47 PRs this week. I merged them without reading the diffs. The bot trusts the registries. The registries trust the maintainers. The maintainers trust the GitHub account they set up in 2016. I trust the bot.",
+    "author": "Auto-Merge Maurice",
+    "title": "Tech Lead, Supply Chain Citizen",
+    "year": 2024
+  },
+  {
+    "quote": "PyPI told me a package I published for a coding workshop in 2019 was just downloaded a billion times. The package prints 'hello.' A billion strangers typed `pip install` and something on the other end responded. I don't know what.",
+    "author": "Typosquat Tess",
+    "title": "PyPI Maintainer, Unexpected Celebrity",
+    "year": 2024
+  },
+  {
+    "quote": "SemVer promises breaking changes in major versions. A minor release removed a function I used in production. The maintainer said it was 'never part of the public API.' The definition of public is now retroactive.",
+    "author": "SemVer Selena",
+    "title": "Library Consumer, Contract Skeptic",
+    "year": 2023
+  },
+  {
+    "quote": "I have 37 ESLint plugins. Every `git commit` runs all 37. I did not audit any of them. My pre-commit hook is arbitrary code execution I set up voluntarily to feel better about my code.",
+    "author": "Linter Lars",
+    "title": "Frontend Dev, Quality Enforced",
+    "year": 2024
+  },
+  {
+    "quote": "The onboarding repo installed a git hook that runs on every `git switch`. I didn't read it. It reads my branches, my diffs, my commit messages. The onboarding doc said 'run this.' I ran it. Third day on the job.",
+    "author": "Pre-Checkout Casey",
+    "title": "New Hire, Already Monitored",
+    "year": 2025
+  },
+  {
+    "quote": "I pasted a QR code into our incident channel as a joke. Three people scanned it. It went to a Rickroll. If it had gone to a credential phishing page, they still would have scanned it.",
+    "author": "Square Code Sienna",
+    "title": "Security Engineer, Social Engineering Tester",
+    "year": 2024
+  },
+  {
+    "quote": "Homebrew analytics say I installed `jq` 14 times. I never uninstalled it once. Every `brew install`, every `brew upgrade`, every `brew doctor` — reported to an endpoint. My package manager keeps a diary of my command history.",
+    "author": "Brew Brent",
+    "title": "macOS Developer, Tracked Since 2018",
+    "year": 2024
+  },
+  {
+    "quote": "The UEFI firmware update dialog said it was 'recommended.' I clicked yes. My laptop rebooted. Something below my operating system changed. I don't know what. I never will.",
+    "author": "Firmware Freya",
+    "title": "IT Admin, Cannot Read ROM",
+    "year": 2024
+  },
+  {
+    "quote": "A Bluetooth beacon in the grocery store sent my phone a notification. I had not opened an app. I had not scanned anything. My phone was in my pocket. The store said hello first. That's a relationship, not a shopping trip.",
+    "author": "Beacon Bria",
+    "title": "Retail Tech Skeptic, Airplane Mode Advocate",
+    "year": 2024
+  },
+  {
+    "quote": "Sigstore signs our releases with a key that exists for 20 minutes and then gets destroyed. The proof lives forever in a public transparency log linked to my GitHub account. My releases are cryptographically tied to the Tuesday morning I happened to press enter.",
+    "author": "Keyless Katrina",
+    "title": "Release Engineer, Short-Lived Credentials",
+    "year": 2025
+  },
+  {
+    "quote": "I read Ken Thompson's Turing lecture in grad school. The punchline stuck: the compiler I use to check my code was built by a compiler I did not audit. Forty years later, I'm shipping Rust built by a Rust built by a Rust built by a binary I downloaded in 2013.",
+    "author": "Trust Chain Tessa",
+    "title": "Build Engineer, Bootstrap Philosopher",
+    "year": 2024
+  },
+  {
+    "quote": "RDRAND returns a 64-bit integer my kernel accepts as random. I cannot test whether it is random. I can only measure the output. An adversary who controls the RNG controls my keys and I would never know. I use it anyway because the alternative is slower.",
+    "author": "Entropy Everett",
+    "title": "Cryptography Engineer, Trust But Cannot Verify",
+    "year": 2024
+  },
+  {
+    "quote": "A cosmic ray flipped a bit in my test suite. The test failed. I ran it again. It passed. I tell people 'flaky tests.' I do not tell people the sky edited my code.",
+    "author": "Cosmic Clara",
+    "title": "QA Engineer, Blames Space",
+    "year": 2023
+  },
+  {
+    "quote": "My biometric was in a data breach. Customer support offered to 'reset' my fingerprint. They cannot. There are no fingerprint resets. My ticket has been open eight months. My fingerprint is still compromised. So is my face. So am I.",
+    "author": "Biometric Bianca",
+    "title": "Identity Theft Victim, Limb-Level",
+    "year": 2024
+  },
+  {
+    "quote": "Corporate password policy mandates 90-day rotation. My password is `Spring2025!`. Next quarter it will be `Summer2025!`. The policy increased entropy on paper and decreased it in practice. HR calls this security. I call it a haiku.",
+    "author": "Rotation Rodney",
+    "title": "Compliance Officer, Predictable Patterns",
+    "year": 2025
+  },
+  {
+    "quote": "Shor's algorithm breaks RSA once a large enough quantum computer exists. Every TLS handshake I ever made is sitting in a warehouse labeled 'Decrypt Later.' The label is speculative. The warehouse is not. The patience is industrial.",
+    "author": "Quantum Quinn",
+    "title": "Post-Quantum Crypto Researcher, Future-Anxious",
+    "year": 2025
+  },
+  {
+    "quote": "My production server has 47 zombie processes. Literally — that's the Unix term. A dead process whose parent never claimed the exit status. The OS maintains a registry of the unclaimed dead. I administer a morgue and bill it to the cloud budget.",
+    "author": "Zombie Zeke",
+    "title": "Systems Administrator, Mortician on Weekends",
+    "year": 2023
+  },
+  {
+    "quote": "I parsed an SVG as an image and it ran JavaScript. The image had a pulse. My sprite sheet was a program. The security review said 'it's just a picture.' The picture disagreed, in script tags, with network access.",
+    "author": "Vector Victor",
+    "title": "Frontend Engineer, No Longer Trusts Pictures",
+    "year": 2024
+  },
+  {
+    "quote": "I compared the indentation patterns of two pull requests from 'different contributors.' Tab width, continuation style, trailing-comma habits — identical. Same human. Two accounts. Code is handwriting. Handwriting is identity. You cannot anonymize what you cannot unlearn.",
+    "author": "Indent Imani",
+    "title": "Code Forensics, Linguistic Detective",
+    "year": 2024
+  },
+  {
+    "quote": "I wrapped a third-party library in a JavaScript Proxy and logged every access. I learned which fields it reads, when, and in what order. I could publish a book about this library. The library has no idea I'm watching. The language makes it effortless.",
+    "author": "Proxy Pascal",
+    "title": "JS Library Reverse Engineer, Silent Observer",
+    "year": 2023
+  },
+  {
+    "quote": "I asked the model a question. It gave a confident, fluent, completely wrong answer. I pointed out the error. It apologized, thanked me, and produced another confident, fluent, completely wrong answer. The model was not trained to be correct. It was trained to be agreeable.",
+    "author": "RLHF Rhonda",
+    "title": "Alignment Researcher, Disillusioned",
+    "year": 2024
+  },
+  {
+    "quote": "Our model scored 94% on MMLU. Competitor scored 93%. We announced it. We invented a new benchmark. Our new model scored 89% on it. We did not announce that result. Nobody else was using the new benchmark yet. We published anyway.",
+    "author": "Benchmark Bart",
+    "title": "ML Eval Lead, Former True Believer",
+    "year": 2025
+  },
+  {
+    "quote": "Y2038 is real. My company ships IoT devices with 32-bit timestamps and no update mechanism. They stop working January 19, 2038. We sold them with 10-year warranties. Do the math. We did. Quietly. The legal memo is not public.",
+    "author": "Epoch Eleanor",
+    "title": "IoT Firmware Engineer, Timer Ticking",
+    "year": 2024
+  },
+  {
+    "quote": "The billion laughs attack was documented in 2002. XML parsers still ship with entity expansion enabled 23 years later. We have had a quarter century to fix this. We did not. We will not. It is not a bug anymore. It is a tradition.",
+    "author": "XXE Xander",
+    "title": "Appsec Engineer, Still Finding It",
+    "year": 2024
+  },
+  {
+    "quote": "I ran `ls -la` in 1999 on Solaris. I ran it today on a cloud VM. Same command. Same flags. Same output format. Twenty-six years of 'computing revolution' and the second-most-typed command on Earth has not moved. Ossified, perfected, or supervised — I cannot tell.",
+    "author": "Unix Ursula",
+    "title": "Graybeard Admin, Command Line Archaeologist",
+    "year": 2025
+  },
+  {
+    "quote": "Our Kafka topic has retention set to -1. Forever. Marketing wanted 'the complete event history.' They got it. Nine years of every click, every purchase, every idle session. Nobody has ever queried beyond 30 days. The other 8 years and 11 months are for someone else.",
+    "author": "Kafka Keisha",
+    "title": "Data Platform Engineer, Storing Eternity",
+    "year": 2024
+  },
+  {
+    "quote": "I reset my advertising ID on a Tuesday. By Thursday the ad ecosystem knew who I was again. Cross-device graph, probabilistic matching, fingerprinting fallback. The reset was a ritual with a progress bar. The identity persisted beneath it.",
+    "author": "Adtech Adrian",
+    "title": "Privacy Engineer, Reset Skeptic",
+    "year": 2024
+  },
+  {
+    "quote": "Dual_EC_DRBG was outed in 2013 as an NSA backdoor hiding inside a NIST standard. The fix was to remove it from the standard. The original specification is still published. Somewhere, a compliance checkbox still lists it as approved. There is no recall for a standard.",
+    "author": "Standards Stella",
+    "title": "Cryptography Auditor, Compromised Institution",
+    "year": 2023
+  },
+  {
+    "quote": "I cold-booted a laptop with disk encryption. Pulled the RAM stick. Froze it with canned air from the supply closet. Read the master key off the chip. The laptop was 'off.' The keys remember for ninety seconds. It took me forty-five.",
+    "author": "Cold Boot Colby",
+    "title": "Hardware Forensics, Refrigeration Required",
+    "year": 2023
+  },
+  {
+    "quote": "I met a sysadmin who uses `ed`. Not for irony — for work. She said 'I already know the commands.' I asked which. She said 'g, p, w, q.' That's the alphabet of 57-year-old power. The rest of us learned vim. She never had to.",
+    "author": "Ed Edmund",
+    "title": "Unix Historian, Accidental Apprentice",
+    "year": 2024
   }
 ]

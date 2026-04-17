@@ -14,6 +14,8 @@ echo "Uninstalling tinfoil hooks..."
 # Remove hook files
 rm -f "$HOOKS_DIR/tinfoil-activate.js"
 rm -f "$HOOKS_DIR/tinfoil-tracker.js"
+rm -f "$HOOKS_DIR/tinfoil-pretool.js"
+rm -f "$HOOKS_DIR/tinfoil-signoff.js"
 rm -f "$HOOKS_DIR/tinfoil-statusline.sh"
 rm -f "$FLAG"
 
@@ -35,6 +37,14 @@ if [ -f "$SETTINGS" ]; then
     if (settings.hooks.UserPromptSubmit) {
       settings.hooks.UserPromptSubmit = settings.hooks.UserPromptSubmit.filter(h => !h.command || !h.command.includes('tinfoil'));
       if (settings.hooks.UserPromptSubmit.length === 0) delete settings.hooks.UserPromptSubmit;
+    }
+    if (settings.hooks.PreToolUse) {
+      settings.hooks.PreToolUse = settings.hooks.PreToolUse.filter(h => !h.command || !h.command.includes('tinfoil'));
+      if (settings.hooks.PreToolUse.length === 0) delete settings.hooks.PreToolUse;
+    }
+    if (settings.hooks.Stop) {
+      settings.hooks.Stop = settings.hooks.Stop.filter(h => !h.command || !h.command.includes('tinfoil'));
+      if (settings.hooks.Stop.length === 0) delete settings.hooks.Stop;
     }
     if (Object.keys(settings.hooks).length === 0) delete settings.hooks;
   }
